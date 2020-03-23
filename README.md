@@ -92,7 +92,7 @@ Please check the user's guide for the detailed instructions on how to use the pa
 vignette("BUSseq_user_guide",package="BUSseq")  # view the vignettes
 ```
 
-For a given number of cell types *K*, it takes about 2 minutes to run 500 iterations in parallel on four cores. To select the optimal *K*, we need to compare the BIC values for different *K*s. In the vignettes, we enumerate *K* from 3 to 6. As a result, we need about 4 * 2 = 8 minutes. When we have a multi-core computer or a cluster, we can further run BUSseq with different *K*s in parallel. For the simulation study in our manuscript which consists of 3,000 genes and 1,000 cells, it takes about one hours to run 4,000 iterations on this dataset. 
+For a given number of cell types *K*, it takes about 2 minutes to run 500 iterations in parallel on four cores. To select the optimal *K*, we need to compare the BIC values for different *K*s. In the vignettes, we enumerate *K* from 3 to 6. As a result, we need about 4 * 2 = 8 minutes. When we have a multi-core computer or a cluster, we can further run BUSseq with different *K*s in parallel. For the simulation study in our manuscript which consists of 3,000 genes and 1,000 cells, it takes about one hour to run 4,000 iterations on this dataset. 
 
 # Citation
 BUSseq manuscript is available from [bioRxiv](https://www.biorxiv.org/content/10.1101/533372v3). If you use BUSseq for your work, please cite our paper.
