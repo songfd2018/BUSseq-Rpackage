@@ -79,7 +79,7 @@ From an `R` session, type:
 
 ```
 require(devtools)
-install_github("songfd2018/BUSseq") # install BUSseq
+install_github("songfd2018/BUSseq-Rpackage") # install BUSseq
 ```
 
 It takes approximately 30 seconds to install. 
