@@ -95,18 +95,17 @@ vignette("BUSseq_user_guide",package="BUSseq")  # view the vignettes
 For a given number of cell types *K*, it takes about 2 minutes to run 500 iterations in parallel on four cores. To select the optimal *K*, we need to compare the BIC values for different *K*s. In the vignettes, we enumerate *K* from 3 to 6. As a result, we need about 4 * 2 = 8 minutes. When we have a multi-core computer or a cluster, we can further run BUSseq with different *K*s in parallel. For the simulation study in our manuscript which consists of 3,000 genes and 1,000 cells, it takes about one hour to run 4,000 iterations on this dataset. 
 
 # Citation
-BUSseq manuscript is available from [bioRxiv](https://www.biorxiv.org/content/10.1101/533372v3). If you use BUSseq for your work, please cite our paper.
+Our work has been published on [Nature Communication](https://www.nature.com/articles/s41467-020-16905-2). If you use BUSseq for your work, please cite our paper.
 
 ```
-		@article {Song533372,
-			author = {Song, Fangda and Angus Chan, Ga Ming and Wei, Yingying},
-			title = {Flexible Experimental Designs for Valid Single-cell RNA-sequencing Experiments Allowing Batch Effects Correction},
-			elocation-id = {533372},
-			year = {2019},
-			doi = {10.1101/533372},
-			publisher = {Cold Spring Harbor Laboratory},
-			URL = {https://www.biorxiv.org/content/early/2019/12/03/533372},
-			eprint = {https://www.biorxiv.org/content/early/2019/12/03/533372.full.pdf},
-			journal = {bioRxiv}
+		@article{song2020flexible,
+  			title={Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction},
+  			author={Song, Fangda and Chan, Ga Ming Angus and Wei, Yingying},
+  			journal={Nature communications},
+  			volume={11},
+  			number={1},
+  			pages={1--15},
+  			year={2020},
+  			publisher={Nature Publishing Group}
 		}
 ```
